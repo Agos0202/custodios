@@ -106,7 +106,7 @@ return (
                 />
             </div>
 
-            {/* Controles de audio y animación de ondas */}
+            {/* Controles de audio y animación de ondas */} 
                     <div style={{ marginTop: "10px", display: "flex", justifyContent: "center" }}>
                         <style>{`
                             .audio-controls { display:flex; justify-content:center; align-items:center; gap:12px; padding:6px; }
@@ -154,6 +154,7 @@ return (
                     />
                     </button>
 
+
                     <img
                     id="ondaSound"
                     src={Onda_Sonido}
@@ -161,23 +162,28 @@ return (
                     className="wave"
                     style={{ width: "200px", height: "50px" }}
                     />
-                </div>
+
+                   
+                </div> 
+               
 
                 {/* audio en public/musica.mp3 - se reproduce en bucle */}
                 <audio id="musica" src="/musica.mp3" loop preload="none" />
             </div>
+             <div className="">Haz clic para escuchar una linda canción</div>
 
             <div className="container py-5">
                 {/* Cuenta regresiva */}
             <div className="text-center mb-5">
+                  <h4 className="fw-semibold mb-4" style={{ color: "#d4af37" }}>
+                    8 de Diciembre
+                </h4>
                 <h3 className="fw-semibold mb-0" style={{ color: "#d4af37" }}>
                     Día de la Virgen del Valle
                 </h3>
+              
                 <h4 className="fw-semibold mb-4" style={{ color: "#d4af37" }}>
-                    8 de Diciembre
-                </h4>
-                <h4 className="fw-semibold mb-4" style={{ color: "#d4af37" }}>
-                    Faltan san solo...
+                    Faltan tan solo...
                 </h4>
 
                 <div
@@ -331,9 +337,14 @@ return (
                     </Slider>
             </div>
             <p className="text-center fs-5 mb-4" style={{ color: "#333" }}>
-                Te invitamos a tener el privilegio de ser Custodios de las imágenes en las fiestas patronales de la Virgen del Valle, San José y el Sagrado Corazón de Jesús.
-                Al inscribirte, formarás parte de una tradición llena de fe y devoción.
-                ¡Inscribite ahora y sé parte de esta noble labor!
+               Te invitamos a tener el honor de ser Custodio de las Sagradas Imágenes de San José, el Sagrado Corazón de Jesús y de Nuestra Madre del Valle, en las Solemnes Fiestas Patronales 2025 en honor a la Pura y limpia Concepción del Valle, Patrona de la Comunidad de La Florida.
+            </p>
+             <p className="text-center fs-5 mb-4" style={{ color: "#333" }}>
+               Al inscribirte, pasarás a formar parte de una tradición centenaria de fe y devoción.
+               Inscríbete ahora y comparte la noble misión de custodiar a quienes veneramos.
+            </p>
+              <p className="text-center fs-5 mb-4" style={{ color: "#333" }}>
+               Pura y limpia concepción del Valle, Ruega por nosotros.
             </p>
 
             {/* Formulario */}
